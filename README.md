@@ -8,9 +8,12 @@
 
 3.运行
 
-**(原英文版)[http://www.appcoda.com/react-native-introduction/]**
-**(中文翻译版系列)[http://segmentfault.com/a/1190000003076518]**
+**[原英文版](http://www.appcoda.com/react-native-introduction/)**
+**[中文翻译版系列](http://segmentfault.com/a/1190000003076518)**
+
+
 **更多教程**
-a.(官方API)[http://reactjs.cn/react/docs/component-api.html]
-b.(中文版API)[http://wiki.jikexueyuan.com/project/react-native/tutorial.html]
-c.(其他资料)[https://github.com/vczero/react-native-lesson]
+
+- [官方API](http://reactjs.cn/react/docs/component-api.html)
+- [中文版API](http://wiki.jikexueyuan.com/project/react-native/tutorial.html)
+- [其他资料](https://github.com/vczero/react-native-lesson)
