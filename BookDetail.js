@@ -6,15 +6,12 @@ var {
     Text,
     View,
     Component,
-    Image
+    Image,
+    ScrollView
 } = React;
 
 var styles = StyleSheet.create({
-    section : {
-        height : Dimensions.get('window').height,
-    },
     container : {
-        marginTop : 75,
         alignItems : 'center'
     },
     image : {
@@ -36,12 +33,12 @@ class BookDetail extends Component {
         var description = (typeof book.volumeInfo.description !=='undefined') ? book.volumeInfo.description : '';
         //<Text style={styles.description} numberOfLines={5}>{description}</Text>
         return (
-            <View style={styles.section}>
+            <ScrollView>
                 <View style={styles.container}>
                     <Image source={{uri:imageURI}} style={styles.image}/>
                     <Text style={styles.description}>{description}</Text>
                 </View>
-            </View>
+            </ScrollView>
         )
     }
 }
